@@ -1,0 +1,162 @@
+/************************* tag selectors *************************/
+
+a {
+    color: #8B7E74;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1 {
+    /* font-size: 5.625em; equivalent to 562.5% or 16px */
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    /* margin: auto; /*horizontal centering*/
+    font-family: 'Sacramento', cursive;
+    color: #8B7E74;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #8B7E74;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+hr {
+    border: dotted 6px #e0e4cf;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+/************************* class selectors *************************/
+
+.top-container {
+    background-color: #DAE2B6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px auto;
+}
+
+.bottom-container {
+    background-color: #d7dcc0;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    /*overrides text alignment in body*/
+    overflow: auto;
+    /*bc element is taller than element containing it - clearfix hack*/
+}
+
+.time-img {
+    width: 25%;
+    /*based on the width of its parent: skill-row*/
+    float: left;
+    margin-right: 30px;
+}
+
+.cali-img {
+    width: 25%;
+    /*based on the width of its parent: skill-row*/
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    ;
+    color: #ffffff;
+    font-size: 20px;
+    background: #CCD6A6;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #DAE2B6;
+    text-decoration: none;
+}
+
+.contact-msg {
+    width: 50%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+
+.images-citation {
+    margin: 10px auto;
+    padding-bottom: 0;
+}
+
+/************************* pseudo selectors *************************/
+
+a:hover {
+    color: #EAF6F6;
+}
